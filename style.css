@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.home-data{
+    display: block;
+    align-items: center;
+}
+.home-data h1{
+  font-weight: lighter;
+  margin-bottom: 2rem;
+   text-shadow: 0 4px 8px black;
+
+}
+.home-data p{
+    width: 300px;
+    font-weight: 500;
+}
+.button{
+   text-decoration: none;
+   display: block;
+   margin-top: 5rem;
+   width: 200px;
+   text-align: center;
+   padding: 10px 15px ;
+   background-color: aqua;
+   border-radius: 2rem;
+   color:white;
+    text-shadow: 0 4px 8px #000;
+}
+.button:hover{
+background-color: rgb(1, 132, 132);
+}
+.home img{
+    width: 250px;
+    transform: translateY(20%);
+    transition: .3s;
+}
+.home img:hover{
+    transform: scale(1.0);
+}
+.mian{
+    background-image: url(background.jpg);
+    height: 600px;
+
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(180%);
+   gap: 2rem;
+}
+.about-data{
+    text-align: center;
+    color: white;
+
+}
+.about-data h1{
+    color: rgb(18, 226, 226);
+    font-weight: lighter;
+}
+.about-data h2{
+    margin-top: 10px;
+    font-weight: lighter;
+     text-shadow: 0 4px 8px #000;
+}
+.about-data p{
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.menu{
+   height: 300px;
+   text-align: center;
+   margin-top: 30%;
+}
+.menu h1{
+    font-weight: lighter;
+    margin-bottom: 2rem;
+     text-shadow: 0 4px 8px #000;
+}
+.button1{
+   text-decoration: none;
+   display: inline-block;
+   margin-top: 5rem;
+   width: 200px;
+   text-align: center;
+   padding: 10px 15px ;
+   background-color: aqua;
+   border-radius: 2rem;
+   color:white;
+   text-shadow: 0 4px 8px #000;
+}
+.button1:hover{
+background-color: rgb(1, 132, 132);
+}
+.menu p{
+    line-height: 1.6;
+}
+.order{
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+}
+.order h1{
+    font-weight: lighter;
+    text-shadow: 0 4px 8px black;
+}
+.order p{
+    margin-top: 18px;
+    line-height: 1.6;
+}
+.images{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 2rem;
+ margin-top: 20px;
+}
+.img1{
+  border: 2px dotted white;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  padding-top: 5rem;
+  color: white;
+}
+.img2{
+    border: 2px dotted white;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  padding-top: 5rem;
+  color: white; 
+}
+.mian p{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
