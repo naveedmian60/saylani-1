@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      font-family: sans-serif;
+    font-family: "Protest Revolution", sans-serif;
 }
 .container{
     width: 60%;
@@ -123,28 +125,27 @@ background-color: rgb(1, 132, 132);
     margin-top: 18px;
     line-height: 1.6;
 }
-.images{
+.box{
  display: flex;
  justify-content: center;
  align-items: center;
  gap: 2rem;
  margin-top: 20px;
 }
-.img1{
+.box1{
   border: 2px dotted white;
   height: 200px;
   width: 400px;
-  text-align: center;
-  padding-top: 5rem;
-  color: white;
 }
-.img2{
+.box2{
     border: 2px dotted white;
   height: 200px;
   width: 400px;
-  text-align: center;
-  padding-top: 5rem;
-  color: white; 
+}
+h3{
+text-align: center;
+color: white;
+padding: 6rem;
 }
 .mian p{
     text-align: center;
